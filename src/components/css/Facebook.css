@@ -1,0 +1,17 @@
+.Facebook{
+    align-content: center;
+    margin-top: 70px !important;
+}
+
+.Heading{
+    margin-top: 50px !important;
+}
+.facebook{
+    margin-top: 75px !important;
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
