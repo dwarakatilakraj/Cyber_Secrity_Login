@@ -1,7 +1,6 @@
 import {bindActionCreators} from 'redux';
 import {connect} from "react-redux";
 import NavBar from "./NavBar";
-import * as Actions from "./NavBarActions";
 import * as FacebookActions from "../FacebookActions";
 
 const mapStateToProps = ({FacebookReducer}) =>{
@@ -13,7 +12,6 @@ const mapStateToProps = ({FacebookReducer}) =>{
 
 const mapDispatchToProps = (dispatch) => {
     return{
-    actions: bindActionCreators(Actions, dispatch),
     FacebookActions: bindActionCreators(FacebookActions, dispatch)
     }
 }
